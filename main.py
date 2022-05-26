@@ -14,7 +14,8 @@ def find_anagram(word, anagram):
     
        if word !=anagram:
            return False
-       return True
+       else:
+           return True
     else:
         return False            
 
